@@ -18,30 +18,40 @@ const Banner = () => {
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-7">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h1>Entrust your smile to professionals</h1>
-                                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                                    <h2>Trung tâm bảo hành Nhật Tín Dental</h2>
+                                    <p>Chúng tôi luôn sẵn sàng hỗ trợ quý khách với các dịch vụ bảo hành nhanh chóng và chuyên nghiệp.</p>
 
+                                    <div className="row">
+                                        <div className="col-lg-6"></div>
+                                        <div className="col-lg-6">
+                                            <div className="banner-call">
+                                                <div className='icon'>
+                                                    <img src={icon} alt="icon" />
+                                                </div>
+                                                <div className='call-text'>
+                                                    <p>Hotline</p>
+                                                    <h6>03 482 394 123</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div className="banner-bottom">
-                                        <div className="theme-btn">
-                                            <Link to="/contact">Book an appointment</Link>
+                                       
+                                        <div className="col-lg-6">
+                                            <div class="form-group">
+                                                {/* <label>Name</label> */}
+                                                <input type="text" class="form-control" placeholder="Nhập mã thẻ bảo hành" />
+                                             </div>
                                         </div>
 
-                                        <div className="banner-call">
-                                            <div className='icon'>
-                                                <img src={icon} alt="icon" />
-                                            </div>
-                                            <div className='call-text'>
-                                                <p>Dental 24H Emergency</p>
-                                                <h6>03 482 394 123</h6>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-lg-6">
+                            <div className="col-lg-5">
                                 <div className="banner-img-area" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                                     <div className="banner-img">
                                         <img src={bannerImg} alt="banner model" />
@@ -50,10 +60,10 @@ const Banner = () => {
                                         <div className="info-img">
                                             <img src={doctorImg} alt="doctor" />
                                         </div>
-                                        <div className='info-text'>
+                                        {/* <div className='info-text'>
                                             <p>Dr. Samantha Alice</p>
                                             <p><small>Consultant</small></p>
-                                        </div>
+                                        </div> */}
                                     </div>  
 
                                     {/* Vector Shapes */}

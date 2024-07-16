@@ -2,26 +2,27 @@ import React from 'react';
 import './Navbar.scss';
 import logo from './../../assets/logo.png';
 import {Link} from 'react-router-dom';
+import icon from '../../assets/banner/icons/Calling.png';
 
 const Navbar = () => {
 
     const navbarItems = [
         {
-            name: 'Home',
+            name: 'Trang chu',
             path: '/',
         },
+        // {
+        //     name: 'About Us',
+        //     path: '/about',
+        // },
         {
-            name: 'About Us',
-            path: '/about',
+            name: 'Bao hanh',
+            path: '/baohanh',
         },
-        {
-            name: 'Single Service',
-            path: '/singleservice',
-        },
-        {
-            name: 'Blogs',
-            path: '/blogs',
-        },
+        // {
+        //     name: 'Blogs',
+        //     path: '/blogs',
+        // },
         {
             name: 'Contact Us',
             path: '/contact',
@@ -53,9 +54,10 @@ const Navbar = () => {
                             </ul>
                             
                             {/* Navbar Button */}
-                            <div className="theme-btn">
+                            {/* <div className="theme-btn">
                                 <Link to="/contact">Book appointment</Link>
-                            </div>
+                            </div> */}
+
                         </div>
                     </div>
                 </nav>

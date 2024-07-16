@@ -44,8 +44,8 @@ const Footer = () => {
             'icon': time
         },
         {
-            'title': 'Clinic Address',
-            'info': '35 West Dental Street California 1004',
+            'title': 'Address',
+            'info': 'Truong Chinh Ha Noi',
             'icon': location
         }
     ]
@@ -102,7 +102,7 @@ const Footer = () => {
 
                 <div className="copyright-area">
                     <div className='copy-text'>
-                        <p>&copy; Dentalist. All Right Reserved</p>
+                        <p>&copy; Nhật Tín. All Right Reserved</p>
                     </div>  
                     <div className='copy-links'>
                         <ul>

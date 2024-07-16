@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.scss';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import icon from '../../assets/banner/icons/Calling.png';
 import bannerImg from '../../assets/banner/1.png';
 import doctorImg from '../../assets/banner/doctor.png';

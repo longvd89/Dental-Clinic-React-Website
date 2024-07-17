@@ -23,7 +23,7 @@
         margin-bottom: 40px;
     }
     .banner-bottom {
-        margin-top: 60px;
+        margin-top: 24px;
         display: flex;
 
         .theme-btn {
@@ -70,17 +70,43 @@
                     text-transform: uppercase;
                     color: $color-blue;
                     font-weight: 700;
-                    margin-bottom: 5px;
+                    margin-bottom: 6px;
                 }
 
                 h6 {
-                    font-size: 18px;
+                    font-size: 16px;
                     text-transform: uppercase;
                     font-weight: 700;
                 }
             }
         }
     }
+}
+
+
+/* CSS */
+.button-search {
+    background: #583FBC;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 700;
+    // margin-top: 4px;
+    display: inline-block;
+    width: 160px
+}
+
+.service-box {
+    border: 1px solid rgba(24, 25, 69, 0.1019607843);
+    padding: 15px;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    background: whitesmoke;
 }
 
 .banner-img-area {

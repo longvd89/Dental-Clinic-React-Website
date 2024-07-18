@@ -34,8 +34,8 @@ const Footer = () => {
 
     const footerContacts = [
         {
-            'title': 'Phone Number',
-            'info': '+088 123 654 987',
+            'title': 'Hotline',
+            'info': '02466897699 - 0985243976',
             'icon': call
         },
         {
@@ -45,7 +45,7 @@ const Footer = () => {
         },
         {
             'title': 'Address',
-            'info': 'Truong Chinh Ha Noi',
+            'info': 'Số 33, ngõ 69A Hoàng Văn Thái, Thanh Xuân, Hà Nội',
             'icon': location
         }
     ]
@@ -58,7 +58,7 @@ const Footer = () => {
                         <div className="footer-logo">
                             <img src={logo} alt="logo" />
                         </div>
-                        <p>Dental Care Seattle is a top-rated local practice for cosmetic, preventative, and restorative dentistry on First Hill</p>
+                        <p>CÔNG TY TNHH VẬT TƯ Y TẾ NHẤT TÍN</p>
 
                         <div className="social-logo">
                             <p>Follow us on</p>
@@ -102,7 +102,7 @@ const Footer = () => {
 
                 <div className="copyright-area">
                     <div className='copy-text'>
-                        <p>&copy; Nhật Tín. All Right Reserved</p>
+                        <p>&copy; Nhất Tín Dental Lab.</p>
                     </div>  
                     <div className='copy-links'>
                         <ul>

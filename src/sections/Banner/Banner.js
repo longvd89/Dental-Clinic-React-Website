@@ -39,14 +39,14 @@ const Banner = () => {
     }
 
     return (
-        <section className='section-bg section-common banner-section pb-70'>
+        <section className='section-bg section-common banner-section'>
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h2>Trung tâm bảo hành Nhật Tín Dental</h2>
+                                    <h2>Trung tâm bảo hành Nha khoa Nhật Tín</h2>
                                     <p>Chúng tôi luôn sẵn sàng hỗ trợ quý khách với các dịch vụ bảo hành nhanh chóng và chuyên nghiệp. Mọi thắc mắc vui lòng liên hệ.</p>
                                     <div className="banner-bottom">
                                         <div className="banner-call">

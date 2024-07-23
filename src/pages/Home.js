@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
-// import Features from '../sections/Features/Features';
+import Features from '../sections/Features/Features';
 import Footer from '../sections/Footer/Footer';
 // import Appointment from '../sections/Appointment/Appointment';
 import Banner from '../sections/Banner/Banner';
@@ -16,8 +16,10 @@ const Home = () => {
         <>
             <Navbar/>
             <Banner/>
-            {/* <Features /> */}
-            {/* <Services/> */}
+            <Features />
+            {/* <Expert/>
+            <Services/>
+            <Testimonial/> */}
             {/*<Emergency/>
             <Features />
             <Expert/>

@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../../assets/footer_logo.png';
 import './Footer.scss';
-import { FaFacebookF, FaInstagram, FaTwitter} from "react-icons/fa";
-import { Link } from 'react-router-dom';
+// import { FaFacebookF, FaInstagram, FaTwitter} from "react-icons/fa";
+// import { Link } from 'react-router-dom';
 import call from '../../assets/footer/calling.png';
 import time from '../../assets/footer/time.png';
 import location from '../../assets/footer/location.png';
@@ -39,13 +39,13 @@ const Footer = () => {
             'icon': call
         },
         {
-            'title': 'Open Hour',
+            'title': 'Giờ làm việc',
             'info': '09:00 AM - 18:00 PM',
             'icon': time
         },
         {
-            'title': 'Address',
-            'info': 'Số 33, ngõ 69A Hoàng Văn Thái, Thanh Xuân, Hà Nội',
+            'title': 'Địa chỉ',
+            'info': 'Số 33, Ngõ 69A Hoàng Văn Thái, Thanh Xuân, Hà Nội',
             'icon': location
         }
     ]
@@ -60,14 +60,14 @@ const Footer = () => {
                         </div>
                         <p>CÔNG TY TNHH VẬT TƯ Y TẾ NHẤT TÍN</p>
 
-                        <div className="social-logo">
+                        {/* <div className="social-logo">
                             <p>Follow us on</p>
                             <ul>
                                 <li><a href="/"><FaFacebookF/></a></li>
                                 <li><a href="/"><FaTwitter/></a></li>
                                 <li><a href="/"><FaInstagram/></a></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <div className="col-lg-2 col-md-2">
                         <div className="footer-link">
@@ -79,9 +79,9 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div> */}
-                    <div className="col-lg-4 col-md-5">
+                    <div className="col-lg-6 col-md-5">
                         <div className="footer-contact">
-                            <p>Contact & Information</p>
+                            <p>Thông tin liên lạc</p>
 
                             {
                                 footerContacts.map(footerContact => {
@@ -104,12 +104,12 @@ const Footer = () => {
                     <div className='copy-text'>
                         <p>&copy; Nhất Tín Dental Lab.</p>
                     </div>  
-                    <div className='copy-links'>
+                    {/* <div className='copy-links'>
                         <ul>
                             <li><Link to='/'>Terms of Use</Link></li>
                             <li><Link to='/'>Privacy Policy</Link></li>
                         </ul>
-                    </div>                          
+                    </div>                           */}
                 </div>
             </div>
         </footer>

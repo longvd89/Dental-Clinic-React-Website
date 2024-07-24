@@ -9,3 +9,28 @@
         }
     }
 }
+
+.item-product {
+    display: flex;
+    flex-direction: column ;
+    margin-bottom: 24px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-product {
+    border: 1px solid #868484;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    height: 260px;
+    width: 100%;
+}
+.img {
+    width: 100%;
+    height: auto;
+}

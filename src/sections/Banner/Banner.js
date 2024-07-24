@@ -3,10 +3,10 @@ import './Banner.scss';
 // import {Link} from 'react-router-dom';
 import icon from '../../assets/banner/icons/Calling.png';
 import iconLocation from '../../assets/footer/location.png';
-import bannerImg from '../../assets/banner/progress.png';
+import bannerImg from '../../assets/dental.webp';
 // import doctorImg from '../../assets/banner/doctor.png';
 import bannerPattern from '../../assets/banner/pattern_02.png';
-import shapeOne from '../../assets/banner/vector_01.png';
+// import shapeOne from '../../assets/banner/vector_01.png';
 import shapeTwo from '../../assets/banner/vector_02.png';
 import shapeThree from '../../assets/banner/vector_03.png';
 import shapeFour from '../../assets/banner/pattern.png';
@@ -46,7 +46,7 @@ const Banner = () => {
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h2>Trung tâm bảo hành Nha khoa Nhật Tín</h2>
+                                    <h2>Trung tâm bảo hành Nhất Tín Labo</h2>
                                     <p>Chúng tôi luôn sẵn sàng hỗ trợ quý khách với các dịch vụ bảo hành nhanh chóng và chuyên nghiệp. Mọi thắc mắc vui lòng liên hệ.</p>
                                     <div className="banner-bottom">
                                         <div className="banner-call">
@@ -97,8 +97,6 @@ const Banner = () => {
                                         { showData && <InfoComponent info={result} />
                                         }
 
-                                        
-
 
                                     </div>
                                 </div>
@@ -112,7 +110,7 @@ const Banner = () => {
 
                                     {/* Vector Shapes */}
                                     <div className="shapes">
-                                        <img src={shapeOne} alt="shape" />
+                                        {/* <img src={shapeOne} alt="shape" /> */}
                                         <img src={shapeTwo} alt="shape" />
                                         <img src={shapeThree} alt="shape" />
                                         <img src={shapeFour} alt="shape" />

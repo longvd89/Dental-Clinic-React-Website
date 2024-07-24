@@ -1,32 +1,32 @@
 import React from 'react';
 import './Navbar.scss';
-import logo from './../../assets/logo.png';
+import logo from './../../assets/logo-2.jpg';
 import {Link} from 'react-router-dom';
 // import icon from '../../assets/banner/icons/Calling.png';
 
 const Navbar = () => {
 
     const navbarItems = [
-        {
-            name: 'Trang chu',
-            path: '/',
-        },
+        // {
+        //     name: 'Trung tâm bảo hành Nhất Tín Labo',
+        //     path: '/',
+        // },
         // {
         //     name: 'About Us',
         //     path: '/about',
         // },
-        {
-            name: 'Bao hanh',
-            path: '/baohanh',
-        },
+        // {
+        //     name: 'Bao hanh',
+        //     path: '/baohanh',
+        // },
         // {
         //     name: 'Blogs',
         //     path: '/blogs',
         // },
-        {
-            name: 'Contact Us',
-            path: '/contact',
-        }
+        // {
+        //     name: 'Contact Us',
+        //     path: '/contact',
+        // }
     ];
 
     return (
@@ -36,8 +36,9 @@ const Navbar = () => {
                     <div className="container-fluid">
                         {/* Logo */}
                         <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="logo" />
+                            <img style={{height:'48px'}} src={logo} alt="logo" />
                         </Link>
+                        <h4>Nhất Tín Labo</h4>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                         </button>
@@ -51,11 +52,15 @@ const Navbar = () => {
                                     </li>
                                     ) 
                                 }
+                                {/* <li className="nav-item">
+                                    <h4>Trung tâm bảo hành Nhất Tín Labo</h4>
+                                </li> */}
                             </ul>
+                            {/* <h4>Trung tâm bảo hành Nhất Tín Labo</h4> */}
                             
                             {/* Navbar Button */}
                             {/* <div className="theme-btn">
-                                <Link to="/contact">Book appointment</Link>
+                                <Link>Book appointment</Link>
                             </div> */}
 
                         </div>

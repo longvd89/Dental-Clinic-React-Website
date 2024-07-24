@@ -15,58 +15,58 @@ const Features = () => {
                 <SectionTitle subTitle="" title="Danh sách sản phẩm" />
 
                 <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-6">
-                        <div className="icon-list">
-                            <div>
-                                <img src={titanImg} alt="expert"></img>
+                    <div className="col-lg-4 col-md-4">
+                        <div className="item-product">
+                            <div className="img-product">
+                                <img className='img' src={titanImg} alt="expert"></img>
                             </div>
                             
-                            <h6>Rang su Ti tan</h6>
+                            <h6>Răng sứ Ti tan</h6>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="icon-list">
-                            <div>
-                                <img src={emaxImg} alt="expert"></img>
+                    <div className="col-lg-4 col-md-4">
+                        <div className="item-product">
+                            <div className="img-product">
+                                <img className='img' src={emaxImg} alt="expert"></img>
                             </div>
                             
-                            <h6>Rang su Emax</h6>
+                            <h6>Răng sứ Emax</h6>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="icon-list">
-                            <div>
-                                <img src={wwhitepeaceImg} alt="expert"></img>
+                    <div className="col-lg-4 col-md-4">
+                        <div className="item-product">
+                            <div className="img-product">
+                                <img className='img' src={wwhitepeaceImg} alt="expert"></img>
                             </div>
                             
                             <h6>Răng sứ White Peaks</h6>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="icon-list">
-                            <div>
-                                <img src={zicoImg} alt="expert"></img>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="item-product">
+                            <div className="img-product">
+                                <img className='img' src={zicoImg} alt="expert"></img>
                             </div>
                             
-                            <h6>Rang su Zico</h6>
+                            <h6>Răng sứ Zico</h6>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="icon-list">
-                            <div>
-                                <img src={venusImg} alt="expert"></img>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="item-product">
+                            <div className="img-product">
+                                <img className='img' src={venusImg} alt="expert"></img>
                             </div>
                             
-                            <h6>Rang su Venus</h6>
+                            <h6>Răng sứ Venus</h6>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="icon-list">
-                            <div>
-                                <img src={katanaImg} alt="expert"></img>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="item-product">
+                            <div className="img-product">
+                                <img className='img' src={katanaImg} alt="expert"></img>
                             </div>
                             
-                            <h6>Rang su Katana</h6>
+                            <h6>Răng sứ Katana</h6>
                         </div>
                     </div>
                 </div>

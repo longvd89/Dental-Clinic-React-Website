@@ -43,8 +43,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #DBEFFA;
 }
 .section-common {
-    border-radius: 48px;
-    margin: 0 25px 60px;
+    border-radius: 32px;
+    margin: 0 25px 24px;
 }
 
 .d-table {
@@ -60,6 +60,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .pt-60 {
     padding-top: 60px;
+}
+
+.pt-40 {
+    padding-top: 40px;
 }
 .pb-70 {
     padding-bottom: 70px;
